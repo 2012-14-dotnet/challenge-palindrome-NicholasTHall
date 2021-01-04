@@ -1,12 +1,16 @@
 using System;
 
-namespace Palindrome.Domain
+namespace Palindrome.Client
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Challenge myword = new Challenge();
+
+            myword.word = Console.ReadLine();
+
+            Console.WriteLine(myword.IsPalindrome());
         }
     }
 }
