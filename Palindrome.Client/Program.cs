@@ -7,6 +7,10 @@ namespace Palindrome.Client
     {
         static void Main(string[] args)
         {
+            UserView();
+        }
+        static void UserView()
+        {
             Challenge myword = new Challenge();
 
             myword.word = Console.ReadLine();
