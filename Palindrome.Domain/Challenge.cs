@@ -2,12 +2,12 @@ using System.Text;
 
 namespace Palindrome.Domain
 {
-    class Challenge
+    public class Challenge
     {
         public string word {get; set;}
 
-        Challenge(){}
-        Challenge(string userWord)
+        public Challenge(){}
+        public Challenge(string userWord)
         {
             word = userWord;
         }
