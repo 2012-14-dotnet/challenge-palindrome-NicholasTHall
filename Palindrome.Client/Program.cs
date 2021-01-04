@@ -1,4 +1,5 @@
 using System;
+using Palindrome.Domain;
 
 namespace Palindrome.Client
 {

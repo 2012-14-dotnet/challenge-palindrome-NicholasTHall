@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace Palindrome.Domain
 {
     class Challenge
